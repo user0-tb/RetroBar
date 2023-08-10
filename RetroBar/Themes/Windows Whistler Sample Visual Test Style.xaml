@@ -175,9 +175,9 @@
     <LinearGradientBrush x:Key="TaskButtonBackgroundHighlight"
                          StartPoint="0,0"
                          EndPoint="0.03,1">
-        <GradientStop Color="##00ff66"
+        <GradientStop Color="#f2f3f4"
                       Offset="0.0" />
-        <GradientStop Color="#00ff66"
+        <GradientStop Color="#003980f4"
                       Offset="0.3" />
     </LinearGradientBrush>
 
