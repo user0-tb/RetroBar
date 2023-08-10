@@ -34,7 +34,7 @@
         <GradientStop Color="#00fff0"
                       Offset="1.0" />
     </LinearGradientBrush>
-    <SolidColorBrush x:Key="TaskbarBorder" Color="#f2f3f4" />
+    <SolidColorBrush x:Key="TaskbarBorder" Color="#00ff66" />
 
     <SolidColorBrush x:Key="TaskbarUnlockedBorderTop" Color="#3b72be" />
     <LinearGradientBrush x:Key="TaskbarUnlockedBottomBorder"
