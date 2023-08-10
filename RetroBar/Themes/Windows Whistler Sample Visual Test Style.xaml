@@ -96,17 +96,17 @@
     <LinearGradientBrush x:Key="TrayVerticalBackground"
                          StartPoint="0,0"
                          EndPoint="1,0">
-        <GradientStop Color="#f2f3f4"
+        <GradientStop Color="#00ff66"
                       Offset="0.0" />
-        <GradientStop Color="#f2f3f4"
+        <GradientStop Color="#00ff66"
                       Offset="0.01" />
-        <GradientStop Color="#f2f3f4"
+        <GradientStop Color="#00ff66"
                       Offset="0.05" />
-        <GradientStop Color="#f2f3f4"
+        <GradientStop Color="#00ff66"
                       Offset="0.6" />
-        <GradientStop Color="#f2f3f4"
+        <GradientStop Color="#00ff66"
                       Offset="0.95" />
-        <GradientStop Color="#f2f3f4"
+        <GradientStop Color="#00ff66"
                       Offset="1.0" />
     </LinearGradientBrush>
 
@@ -185,9 +185,9 @@
     <SolidColorBrush x:Key="TaskButtonLeftBorderHover" Color="#214ba9" />
     <SolidColorBrush x:Key="TaskButtonRightBorderHover" Color="#1f408c" />
     <SolidColorBrush x:Key="TaskButtonBottomBorderHover" Color="#1d4196" />
-    <SolidColorBrush x:Key="TaskButtonInnerLeftBorderHover" Color="#8bc0ff" />
-    <SolidColorBrush x:Key="TaskButtonInnerRightBorderHover" Color="#2d86ff" />
-    <SolidColorBrush x:Key="TaskButtonInnerBottomBorderHover" Color="#2d86ff" />
+    <SolidColorBrush x:Key="TaskButtonInnerLeftBorderHover" Color="#00fff0" />
+    <SolidColorBrush x:Key="TaskButtonInnerRightBorderHover" Color="#00fff0" />
+    <SolidColorBrush x:Key="TaskButtonInnerBottomBorderHover" Color="#00fff0" />
     <LinearGradientBrush x:Key="TaskButtonBackgroundHover"
                          StartPoint="0,0"
                          EndPoint="0,1">
@@ -397,7 +397,7 @@
     </RadialGradientBrush>
 
     <BitmapImage x:Key="StartIconImage"
-                 UriSource="../Resources/startxpblue.png" />
+                 UriSource="../Resources/start9x.png" />
     <BitmapImage x:Key="StartButtonImage"
                  UriSource="../Resources/startwhistlertestvisual.png" />
     <BitmapImage x:Key="ShowDesktopIconImageSmall"
@@ -1406,8 +1406,7 @@
                                     Property="Background">
                                 <Setter.Value>
                                     <ImageBrush ImageSource="{DynamicResource StartButtonImage}"
-                                                ViewboxUnits="RelativeToBoundingBox"
-                                                Viewbox="0,0.3333,1,0.3333" />
+                                                ViewboxUnits="RelativeToBoundingBox" />
                                 </Setter.Value>
                             </Setter>
                         </Trigger>
@@ -1417,8 +1416,7 @@
                                     Property="Background">
                                 <Setter.Value>
                                     <ImageBrush ImageSource="{DynamicResource StartButtonImage}"
-                                                ViewboxUnits="RelativeToBoundingBox"
-                                                Viewbox="0,0.6666,1,0.3333" />
+                                                ViewboxUnits="RelativeToBoundingBox" />
                                 </Setter.Value>
                             </Setter>
                         </Trigger>
