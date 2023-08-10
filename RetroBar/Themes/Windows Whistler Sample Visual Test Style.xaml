@@ -34,7 +34,7 @@
         <GradientStop Color="#00fff0"
                       Offset="1.0" />
     </LinearGradientBrush>
-    <SolidColorBrush x:Key="TaskbarBorder" Color="#3168d5" />
+    <SolidColorBrush x:Key="TaskbarBorder" Color="#f2f3f4" />
 
     <SolidColorBrush x:Key="TaskbarUnlockedBorderTop" Color="#3b72be" />
     <LinearGradientBrush x:Key="TaskbarUnlockedBottomBorder"
@@ -72,10 +72,10 @@
                       Offset="1.0" />
     </LinearGradientBrush>
 
-    <SolidColorBrush x:Key="TrayTopBottomBorder" Color="#095bc9" />
+    <SolidColorBrush x:Key="TrayTopBottomBorder" Color="#f2f3f4" />
     <SolidColorBrush x:Key="TrayLeftBorder1" Color="#8a000000" />
-    <SolidColorBrush x:Key="TrayLeftBorder2" Color="#22b9e5" />
-    <SolidColorBrush x:Key="TrayLeftBorder3" Color="#22c4f4" />
+    <SolidColorBrush x:Key="TrayLeftBorder2" Color="#f2f3f4" />
+    <SolidColorBrush x:Key="TrayLeftBorder3" Color="#f2f3f4" />
     <SolidColorBrush x:Key="TrayLeftBorder4" Color="#3822c4f4" />
     <LinearGradientBrush x:Key="TrayBackground"
                          StartPoint="0,0"
@@ -1426,8 +1426,7 @@
                                     Property="Background">
                                 <Setter.Value>
                                     <ImageBrush ImageSource="{DynamicResource StartButtonImage}"
-                                                ViewboxUnits="RelativeToBoundingBox"
-                                                Viewbox="0,0.6666,1,0.3333" />
+                                                ViewboxUnits="RelativeToBoundingBox" />
                                 </Setter.Value>
                             </Setter>
                         </Trigger>
