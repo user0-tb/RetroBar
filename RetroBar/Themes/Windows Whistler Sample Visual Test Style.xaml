@@ -72,25 +72,25 @@
                       Offset="1.0" />
     </LinearGradientBrush>
 
-    <SolidColorBrush x:Key="TrayTopBottomBorder" Color="#f2f3f4" />
+    <SolidColorBrush x:Key="TrayTopBottomBorder" Color="#00ff66" />
     <SolidColorBrush x:Key="TrayLeftBorder1" Color="#8a000000" />
-    <SolidColorBrush x:Key="TrayLeftBorder2" Color="#f2f3f4" />
-    <SolidColorBrush x:Key="TrayLeftBorder3" Color="#f2f3f4" />
+    <SolidColorBrush x:Key="TrayLeftBorder2" Color="#00ff66" />
+    <SolidColorBrush x:Key="TrayLeftBorder3" Color="#00ff66" />
     <SolidColorBrush x:Key="TrayLeftBorder4" Color="#3822c4f4" />
     <LinearGradientBrush x:Key="TrayBackground"
                          StartPoint="0,0"
                          EndPoint="0,1">
-        <GradientStop Color="#f2f3f4"
+        <GradientStop Color="#00ff66"
                       Offset="0.0" />
-        <GradientStop Color="#f2f3f4"
+        <GradientStop Color="#00ff66"
                       Offset="0.05" />
-        <GradientStop Color="#f2f3f4"
+        <GradientStop Color="#00ff66"
                       Offset="0.18" />
-        <GradientStop Color="#f2f3f4"
+        <GradientStop Color="#00ff66"
                       Offset="0.6" />
-        <GradientStop Color="#f2f3f4"
+        <GradientStop Color="##00ff66"
                       Offset="0.9" />
-        <GradientStop Color="#f2f3f4"
+        <GradientStop Color="##00ff66"
                       Offset="1.0" />
     </LinearGradientBrush>
     <LinearGradientBrush x:Key="TrayVerticalBackground"
