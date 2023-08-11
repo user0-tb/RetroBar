@@ -28,6 +28,7 @@ RetroBar is based on the [ManagedShell](https://github.com/cairoshell/ManagedShe
 
 ## Included themes
 - System (Classic and XP)
+- Sample Test Visual Style (Whistler 2410-2419)
 - Watercolor
 - Windows 95-98
 - Windows Me
